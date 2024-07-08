@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    gap:0.5vw;
+}
+.nav2{
+    display: flex;
+    gap:5vw
+}
+.coincount{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+.logo{
+    width: 14vw;
+    height:11vh;
+    margin-left: 0vw;
+    margin-top: 0px;
+}
+.profile{
+    height: 8vh;
+    margin-right: 4vw;
+    margin-top: 14px;
+
+
+}
+.coins{
+    width: 3vw;
+    height: 6vh;
+    margin-top: 24px;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25vw;
+    width:86vw;
+    height:20vh;
+    margin-top: 5vh;
+    margin-left: 7vw;
+    border: 2.5px solid black;
+    border-radius: 12px;
+}
+.user{
+    font-size: 30px;
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    padding: 4rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.welcome{
+    height:20vh;
+    width: 10vw;
+    margin-top: 0.25rem;
+}
+.click{
+    position: absolute;
+    width: 10vw;
+    background-color: rgb(28, 27, 27);
+    border-radius: 5px;
+box-shadow: 2px 2px 8px #1f1e1ea2;
+padding: 4px;
+}
+.listitem{
+    height: 5vh;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem;
+
+}
+.listitem:hover{
+    background-color: #494747;
+    
+    cursor: pointer;
+}
+

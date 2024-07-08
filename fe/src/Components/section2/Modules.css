@@ -1,0 +1,17 @@
+.sec{
+    background-color: #F9F9F9;
+    margin-top: 100vh;}
+.guide{
+    font-size: 40px;
+    font-weight: 600;
+   margin-top: 5vh;
+}
+.tagline{
+    font-size: 30;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+
+}

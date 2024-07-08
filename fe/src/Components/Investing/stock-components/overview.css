@@ -1,0 +1,40 @@
+.overview-main{
+    display: flex;
+    justify-content: space-between;
+}
+.symbol{
+    font-size: 25px;
+    font-weight: 300;
+    background-color: lavender;
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 5px;
+    height: fit-content;
+}
+.price{
+    text-align: end;
+
+}
+.price-price{
+    font-size: 2em;
+    margin: 0px;
+    font-weight: 400;
+}
+.pchange{
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 400;
+    -webkit-box-shadow: inset 0px 0px 15px 8px rgba(76,223,142,1);
+    -moz-box-shadow: inset 0px 0px 15px 8px rgba(76,223,142,1);
+    box-shadow: inset 0px 0px 15px 8px rgba(76,223,142,1);
+}
+.nchange{
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 400;
+    -webkit-box-shadow: inset 0px 0px 15px 8px rgb(227, 103, 103);
+    -moz-box-shadow: inset 0px 0px 15px 8px rgb(227, 103, 103);
+    box-shadow: inset 0px 0px 15px 8px rgb(227, 103, 103);
+}

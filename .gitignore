@@ -1,0 +1,12 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/be/node_modules/
+/fe/node_modules/
+/be/backend/.env
+/be/backend/config/config.env
+/fe/.env
+/fe/frontend/.cache/default-development/6.pack
+/fe/frontend/.cache/default-development/4.pack
+/fe/frontend/.cache/default-development/2.pack
+/fe/build

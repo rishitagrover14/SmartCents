@@ -1,0 +1,43 @@
+@import url(variables.css);
+.selectionContent{
+    padding: 1rem;
+    font-family: var(--text2);
+}
+.selectionContent .underline{
+    background-color: var(--seventh);
+    width: 20%;
+    height: 4px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+.selectionContent p{
+    font-family: var(--text2);
+    color: var(--dark);
+    display: block;
+    text-align: justify;
+    padding: 2rem;
+    border: 4px solid var(--seventh);
+    border-radius: 14px;
+    background-color: var(--sixth);
+    font-weight: 500; 
+    line-height: 1.5rem;
+}
+.selectionContent span{
+    font-weight: 600;
+    font-size: 22px;
+}
+.selectionContent button{
+    width: 15%;
+    height: 40px;
+    padding: 2px;
+    border: 2px solid var(--second);
+    border-radius: 4px;
+    color: var(--first);
+    background-color: var(--second);
+    font-family: var(--text2);
+    font-weight: 800;
+    &:hover{
+        background-color: var(--eighth);
+        font-size: 1rem;
+    }
+}

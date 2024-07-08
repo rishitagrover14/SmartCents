@@ -1,0 +1,82 @@
+html,body{
+  background-color: #f9f9f9;
+}
+
+.stockss{
+  border-width: 10px;
+ margin:2em auto;
+width:450px;
+height:400px;
+
+ padding-left:20px;
+  border-width:2px;
+border-style:solid;
+border-color:black;
+flex-wrap: wrap;
+background-color: #90e0ef;
+box-shadow: 10px 10px rgb(1, 1, 5);
+border-radius: 20px;
+font-weight: bold;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.realestate{
+  border-width: 10px;
+ margin:2em auto;
+width:450px;
+height:400px;
+
+ padding-left:25px;
+  border-width:2px;
+border-style:solid;
+border-color:black;
+flex-wrap: wrap;
+background-color: #ade8f4;
+box-shadow: 10px 10px rgb(1, 1, 5);
+border-radius: 20px;
+font-weight: bold;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.modulesashmeet{
+  display:inline-flex;
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  align-content: center;
+  padding-top: 22px;
+  flex-wrap: wrap;
+  background-color: #f9f9f9;
+  margin-top: 77px;
+
+}
+.ima{
+  width:220px;
+  height:130px;
+  padding-left: 120px;
+  align-items: center;
+}
+.btns{
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0.5rem;
+  border-radius: 20px;
+  color:aliceblue;
+  background-color: rgb(10, 10, 31);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width:175px;
+  height:43px;
+  margin-top:50px
+}
+.btns button:hover{
+  transform: scale(1.15);
+  cursor: pointer;
+}
+.stockss:hover {
+  transform:scale(1.1) }
+.realestate:hover {
+    transform:scale(1.1) }
+@media (max-width: 800px) {
+  .modules {
+    flex-direction: column;
+  }
+}

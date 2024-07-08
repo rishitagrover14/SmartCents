@@ -1,0 +1,10 @@
+/* 
+html{
+    scroll-snap-align: y mandatory ;
+    scroll-behavior: smooth;
+}
+section{
+    background-color: white;
+    height: 100vh;
+    scroll-snap-align: center;
+} */

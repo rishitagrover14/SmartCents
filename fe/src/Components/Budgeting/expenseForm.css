@@ -1,0 +1,59 @@
+@import url(variables.css);
+.expenseForm form{
+    display: flex;
+    flex-direction: column;
+}
+.expenseForm input{
+    width: 48%;
+    height: 43px;
+    padding: 23px;
+    border: 2px solid var(--second);
+    background-color: var(--third);
+    font-size: 20px;
+    color: var(--text-color); 
+}
+.expenseForm select{
+    width: 48%;
+    height: 51px;
+    padding: 10px;
+    border: 2px solid var(--second);
+    background-color: var(--third);
+    font-size: 20px;
+    border-radius: 7px;
+    margin-top: 22px;
+    box-shadow: 1px 1px 6px #1452248f;
+    color: var(--text-color); 
+}
+.expenseForm input[type='text']::placeholder, .expenseForm input[type='number']::placeholder{
+    font-family: var(--text2);
+    color: var(--second);
+}
+.expenseForm button{
+    width: 13%;
+    height: 48px;
+    padding: 2px;
+    border: 2px solid var(--second);
+    color: var(--first);
+    background-color: var(--second);
+    font-family: var(--text2);
+    font-weight: 800;
+    font-size: 20px;
+    box-shadow: 1px 1px 6px #1452248f;
+
+    &:hover{
+        background-color: var(--eighth);
+        font-size: 1rem;
+    }
+}
+.newexpense{
+    display: flex;
+    justify-content: space-between;
+    gap:20px
+}
+.amount{
+    border-radius: 6px;
+    box-shadow: 1px 1px 6px #1452248f
+}
+.description{
+    border-radius: 6px;
+}

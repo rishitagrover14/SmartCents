@@ -1,0 +1,76 @@
+@import url(variables.css);
+.ruleContent{
+    padding: 0.5rem 2rem;
+}
+.ruleInfo h2{
+    font-family: var(--text2);
+    font-size: 2rem;
+    color: var(--dark);
+}
+.ruleInfo p{
+    font-family: var(--text2);
+    color: var(--dark);
+    display: block;
+    text-align: justify;
+    padding: 2rem;
+    border: 4px solid var(--seventh);
+    border-radius: 14px;
+    background-color: var(--sixth);
+    font-weight: 500; 
+    line-height: 1.5rem;
+}
+.step1{
+    padding: 1rem 0px;
+    font-family: var(--text2);
+}
+.step1 .underline{
+    background-color: var(--seventh);
+    width: 20%;
+    height: 4px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+.step1 form{
+    display: flex;
+    justify-content: space-between;
+    gap:20px
+}
+.calculateinput{
+    width: 31%;
+    height: 48px;
+    padding: 8px;
+    border: 2px solid var(--second);
+    border-radius: 6px;
+    background-color: var(--third);
+    font-size: 20px;
+    box-shadow: 1px 1px 6px #1452248f;
+    &:focus{
+        border-radius: 6px 0 0 6px;
+    }
+}
+.calculateinput[type='number']::placeholder{
+    font-family: var(--text2);
+    color: var(--second);
+}
+.calculatebutton{
+    width: 10%;
+    height: 48px;
+    padding: 2px;
+    border: 2px solid var(--second);
+    color: var(--first);
+    margin-top: 22px;
+    margin-left: 15px;
+    background-color: var(--second);
+    font-family: var(--text2);
+    font-weight: 800;
+    font-size: 17px;
+    box-shadow: 1px 1px 6px #1452248f;
+    &:hover{
+        background-color: var(--eighth);
+        font-size: 1rem;
+    }
+}
+.calculatebutton:hover{
+    cursor: pointer;
+    background-color: var(--eighth);
+}

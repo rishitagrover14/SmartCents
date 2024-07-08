@@ -1,0 +1,97 @@
+.login{
+    display: flex;
+    height: 100vh;
+}
+.left{
+    background-color: black;
+    width: 50vw;
+    height:100vh;
+}
+.right{
+    background-color:white;
+    width: 50vw;
+    height:100vh;
+    margin-top: 2vh;
+}
+.logo{
+    margin-left: 1px;
+}
+.arrow{
+    height:5vh;
+    width: 3vw;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.appname{
+    font-size: 25px;
+    font-weight: 700;
+}
+.textlogin{
+    color: white;
+    text-align: center;
+    margin-top: 10vh;
+    line-height:2rem ;
+}
+.login1{
+    margin-left: 7vw;
+}
+.textsignin{
+    font-weight: 800;
+    font-size: 35px;
+    margin-left: 20vw;
+    margin-top: 18vh
+}
+.formlogin{
+    margin-left: 13vw
+}
+input{
+    width: 25vw;
+    margin-top: 1.5rem;
+    border: 2px solid #C9C9C9;
+    height: 3rem;
+    border-radius: 25px;
+    background-color: #C9C9C9;
+    padding: 2rem;
+}
+input:hover{
+    transform: scale(1.1);
+}
+.signin{
+    margin-top: 2rem;
+    margin-left: 9vw;
+    border-radius: 25px;
+        background-color:black ;
+        color: white;
+        height:8vh;
+        width: 8vw;
+        font-size: 15px;
+        font-weight: 500;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   
+}
+.signin:hover{
+   
+        background-color:#2d2c2c ;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+.signup{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    height: 8vh;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-left: 20vw;
+    border-radius: 25px;
+}
+.signup:hover{
+    transform: scale(1.1);
+    color: black;
+    background-color: white;
+}

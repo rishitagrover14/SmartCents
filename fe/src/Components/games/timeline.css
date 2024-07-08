@@ -1,0 +1,56 @@
+.levlmap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24vh;
+}
+.path-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8%;
+}
+.levelhead{
+    font-weight: 600;
+    font-size: 28px;
+}
+.circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    position: relative;
+    cursor:pointer;
+}
+
+.circle.locked {
+    background-color: gray;
+}
+
+/*.circle.locked::after {*/
+/*    content: "🔒";*/
+/*    font-size: 24px;*/
+/*}*/
+
+.circle.start {
+    background-color: orange;
+}
+
+.path {
+    width: 30px; /* Adjust this value to control the spacing between circles */
+    height: 4px;
+    background-color: black;
+}
+
+.circle.completed {
+    background-color: green;
+    color: white;
+}

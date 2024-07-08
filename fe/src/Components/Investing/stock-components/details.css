@@ -1,0 +1,12 @@
+.list-heading{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+    margin: 0px;
+    font-weight: 400;
+    border-top: 2px solid lightgray;
+}
+.detailslist{
+    padding: 5px;
+    margin: 0px;
+}

@@ -1,0 +1,50 @@
+
+.guide{
+  text-align: center;
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: 20px;
+ 
+  
+  
+  
+}
+
+.tagline{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  
+}
+button{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+@keyframes bounce {
+  0% {
+    top: 90%;
+  }
+  
+}
+
+.plane{
+    height:90vh;
+    border-radius: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20%;
+    margin-bottom: 0%;
+
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ 
+   animation-name: bounce;
+   animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
